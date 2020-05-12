@@ -1,0 +1,2 @@
+# Wrappers for external APIs
+Implemented to make external dependencies comply with generic interfaces. This allows dependency inversion, which, in turn, should make it easy to replace the particular implementations of the external APIs with other versions. In addition, the wrappers try to improve the encapsulation shortcomings of the original libraries. The generic interfaces (`IGearbox`, `IExternalSystems`) expose the minimum API needed for out gearbox driver.
