@@ -5,5 +5,5 @@ module.exports = {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.ts?$',
   testEnvironment: 'node',
   rootDir: 'src',
-  collectCoverageFrom: ['**/*.ts'],
+  collectCoverageFrom: ['**/*.ts', '!demo.ts'],
 };

@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node src/demo.ts",
     "test": "jest",
-    "test:cov": "jest --collectCoverage"
+    "test:cov": "jest --collectCoverage",
+    "build": "rimraf build && tsc"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@types/node": "^13.13.5",
     "@types/sinon": "^9.0.0",
     "jest": "^25.0.1",
+    "rimraf": "^3.0.2",
     "sinon": "^9.0.2",
     "ts-jest": "^25.5.1",
     "ts-node": "^8.10.1",
